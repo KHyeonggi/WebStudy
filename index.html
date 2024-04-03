@@ -7,7 +7,7 @@
     <style>
         div{
             display: inline-block;
-            border-top: solid 4px gray;
+            border-top: solid 4px rgb(0, 0, 0);
             border-left: solid 4px gray;
             border-right: solid 4px gray;
             border-bottom: solid 4px gray;
@@ -15,11 +15,7 @@
             padding: 10px 30px 10px 30px;
             width: 300px;
         }
-        div {
-            
-            margin: 5px;
-            width: 300px;
-        }
+        
         div.contents{
             background-color: gold;
         }
@@ -36,16 +32,25 @@
     <h2>김형기</h2>
     <p>하나의 문단을 작성할떄는 p 태그를 사용합니다</p>
     <p>안녕하세요,<br>코딩 공부하기 좋은 날입니다..</p>
-     <hr><div class="contents">
-        <p>영화소개</p>
-            <p>영화를 소개하는 부분입니다</p>
-     </div>
-     <div class="ootd">
-        <p>오늘의 의상</p>
-     </div>
-     <div class="contents">
-        <p>오늘의 수면</p>
-        <p>잠을자도 졸립니다</p>
-     </div>
+    <hr>
+    <div class="contents">
+        <dl>
+            <dt>영화소개</dt>
+            <dd>영화를 소개하는 부분입니다</dd>
+        </dl>
+    </div>
+    <div class="ootd">
+        <dl>
+            <dt>오늘의 의상</dt>
+            <dd>오늘의 의상</dd>
+        </dl>
+        
+    </div>
+    <div class="contents">
+        <dl> 
+            <dt>오늘의 수</dt>
+            <dd>잠을자도 졸립니다</dd>
+        </dl>
+    </div>
 </body>
 </html>
