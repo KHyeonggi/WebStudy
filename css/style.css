@@ -29,6 +29,12 @@ div#login_form input{
     display: block;
     margin: 10px;
 }
+div.table{
+    width: auto;
+    height: auto;
+}
+
+
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
